@@ -21,10 +21,17 @@ It uses a **TF-IDF Vectorizer** with a **Logistic Regression** classifier traine
 tulu-sentiment-analysis/
 │
 ├── model/
-│   ├── tfidf_vectorizer.pkl
-│   └── sentiment_model.pkl
+│   ├── CountVectorizer_LogisticRegression_model.pkl
+│   ├── CountVectorizer_LogisticRegression_vectorizer.pkl
+│   ├── CountVectorizer_NaiveBayes_model.pkl
+│   ├── CountVectorizer_NaiveBayes_vectorizer.pkl
+│   ├── TFIDF_LogisticRegression_model.pkl
+│   ├── TFIDF_LogisticRegression_vectorizer.pkl
+│   ├── TFIDF_NaiveBayes_model.pkl
+│   ├── TFIDF_NaiveBayes_vectorizer.pkl
+│   └── model_results.csv
 │
-├── data/
+├── dataset/
 │   ├── train.csv
 │   └── test.csv
 │
